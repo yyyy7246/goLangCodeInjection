@@ -44,7 +44,6 @@ func main() {
       wpm.Call(tPrcs, rmtPrcsBuf, (uintptr)(u.Pointer(&scDec[0])), uintptr(len(scDec)), 0)
       crtEx.Call(tPrcs, 0, 0, rmtPrcsBuf, 0, 0, 0)
       ch.Call(tPrcs)
-	  
-	  time.Sleep(1000000000 * time.Millisecond)
+	
 
 }
